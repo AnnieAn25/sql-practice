@@ -9,3 +9,8 @@ add README.md
 '''sql
 SELECT *
 FROM Customers;
+### Example 2: Filter orders placed after 2021-01-01
+SELECT oder_id, customer_id, order_date
+FROM oders
+WHERE order_date >'2021-01-01'
+ORDER BY order_date ASC;
