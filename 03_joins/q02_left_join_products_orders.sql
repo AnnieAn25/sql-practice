@@ -1,0 +1,1 @@
+add q02_left_join_products_orders.sql
